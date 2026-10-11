@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Last Lantern · Adventure Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="game.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><span>AN ADVENTURE IN THE QUIET WOODS</span><button id="restart" type="button">Start over</button></header>
+    <section class="scene" aria-label="Night forest illustration"><div class="moon"></div><div class="trees">♠ ♠ ♠ ♠ ♠</div><div class="lantern">✦</div></section>
+    <div class="chapter" id="chapter"></div>
+    <h1 id="title"></h1>
+    <p id="story" aria-live="polite"></p>
+    <nav id="choices" aria-label="Your next move"></nav>
+    <footer><span>YOUR SATCHEL</span><p id="inventory"></p><small>Choose your path. Find the light. Bring it home.</small></footer>
+  </main>
+</body>
+</html>
